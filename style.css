@@ -1,0 +1,230 @@
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*........................Main code INDEX...................*/
+
+.wrapper
+{
+    height:660px;
+    width: 1350px;
+   /*  background-color: red; */
+
+}
+header
+{
+    height: 70px;
+    width:1536px;
+    background-color:black;
+
+}
+section
+{
+     height: 710px;
+    width:1536px;
+    background-color: grey;
+}
+section .sec_img
+{
+    margin-top:0px;
+     background-image: url("images/bg.jpg");
+     background-image: no-repeat;
+     height: 721px;
+}
+footer
+{
+     height: 90px;
+    width:1536px;
+    background-color: black;
+}
+.logo
+{
+    float:left;
+    padding-left: 20px;
+
+}
+.logo img
+{
+  padding-left: 20px;
+  padding-top: 10px;
+  max-height: 65px;
+
+}
+li a
+{
+  color: white;
+  text-decoration: solid;
+}
+/*
+nav
+{
+    float:right;
+    word-spacing: 30px;
+    padding: 20px;
+}
+nav li
+{
+    display: inline-block;
+    line-height: 70px;
+} */
+
+.box
+{
+    height:550px;
+    width: 450px;
+    background-color: #000000;
+    margin-left:555px;
+    opacity: .90;
+    margin-top: 35px;
+    color: white;
+    border-radius: 25px;
+    
+
+}
+/*----------------------------------------st_login -------------------------*/
+
+
+.log
+{
+     margin-top:0px;
+     background-image: url("images/61.jpg");
+     height: 738px;
+     width: 100% ;
+}
+.box1
+{
+    height:380px;
+    width: 350px;
+    background-color: #000000;
+    margin:60px auto;
+    opacity: .68;
+    color: white;
+
+}
+form .login
+{
+    margin:auto 55px;
+
+}
+input
+{
+   height:30px;
+   width: 200px;
+}
+
+/*-------------------reg-----------*/
+.reg
+{
+     
+     background-image: url("images/101.jpg");
+     height: 740px;
+     
+}
+.box2
+{
+   height:400px;
+    width: 338px;
+    background-color: #000000;
+    margin-left:40px ;
+    margin-top:60px;
+    opacity: .68;
+    color: white; 
+    border-radius: 30px;
+}
+form .register
+{
+    margin:auto 50px;
+}
